@@ -1,15 +1,12 @@
 let n=11;
-
-for(j=1; j<=n; j++){
-  
-count;
-for(i=1; i<=N; i++){
-    if(j%i==0){
+let count=0;
+for(j=1; j<=n; j++)
+    if(n%j==0){
+        count++;
       
     }
-}if(count==2){
-    console.log(j,"it is prime");
+if(count==2){
+    console.log(n,"is prime");
 }else{
-    console.log(j,"it is not prime");
-}
+    console.log(n,"is not prime");
 }
